@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+   
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.4;
+  }
+
+  #header {
+    margin-bottom: 15px;
+    background :url(https://media.istockphoto.com/id/1212329346/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A7%E0%B8%B5%E0%B8%A2%E0%B8%94%E0%B8%99%E0%B8%B2%E0%B8%A1.jpg?s=1024x1024&w=is&k=20&c=S4bsq4KuxQvb_eWweg_hdJ5OWsf5M0mhRaq8wAx6Dt8=);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    text-shadow: +10px +10px 10px rgb(253, 253, 253);
+  }
+  h1{
+    font-size: 50px;
+    font-style: italic;
+    color: darkred;
+    text-decoration:underline ;
+    text-shadow: +5px +2px 5px rgb(105, 99, 99);
+  }
+  h2{
+    font-size: 30px;
+    color: darkblue;
+    text-decoration:underline;
+  }
+   
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  img{
+    width: 50rem;
+    height: 30rem;
+  }
+
+  #main {
+    float: left;
+    width: 69%;
+    text-align: center;
+  }
+
+  #sidebar {
+    float: right;
+    width: 29%;
+    color: black;
+  }
+  
+  #footer {
+    background: rgb(182, 179, 179);
+    color: rgb(17, 15, 15);
+    padding: 10px;
+  }
+
+  .life{
+    text-align: left;
+  }
+
+  .box{
+    margin: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  .link{
+    color: red;
+    font-size: 20px;
+   }
+  .picture{
+    text-align: left;
+    width:"30%"
+  }
